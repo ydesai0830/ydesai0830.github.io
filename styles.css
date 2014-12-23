@@ -1,0 +1,144 @@
+html, body {
+
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', serif;
+	
+}
+
+#header{
+	height:180px;
+	margin:0px;
+}
+
+#body_div {
+	margin-top: 30px;
+	top: 0;
+	line-height: 2em;
+    border-bottom: solid;
+  
+}
+
+#content{
+	margin-left: 50px;
+	margin-right: 200px;
+}
+
+#body_div img{
+	padding-right:20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+#projects{
+	border-bottom: solid;
+}
+
+#banner {
+	margin-left: 70px;
+	margin-right: 100px;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	vertical-align: center;
+	
+}
+
+#name h1{
+	font-size: 200%;
+}
+
+#name{
+	float: left;
+}
+#name a{
+	text-decoration: None;
+	color:black;
+}
+
+#name a:hover{
+	color:purple;
+}
+
+#outside_links{
+	display:inline-block;
+	padding-top: 50px;
+	padding-right:50px;
+	margin-right: 200px;
+	vertical-align: top;
+	height: 150px;
+	float: right;
+	position: relative;
+}
+
+#email a{
+	float:left; 
+	padding-top:2px;
+	text-decoration: None;
+	color:black;
+}
+
+#email a:hover{
+	color:purple;
+}
+
+#nav_bar {
+	top:0;
+    height: 30px;
+    background-color: white;
+    border-top:solid;
+    border-bottom:solid;
+    border-top-width: thin;
+    border-color: black;
+    color: purple;
+    width: 100%;
+   
+}
+
+.navbar-fixed {
+    
+    z-index: 100;
+  	position: fixed;
+}
+
+.nav_links {
+	margin-top: 4px;
+  
+}
+
+.nav_links li {
+	display: inline-block;
+    margin-top: 4px;
+}
+.nav_links li a {
+	padding: 0 15.5px;
+	text-decoration: None;
+	color:black;
+}
+
+.nav_links li a:hover{
+	color:purple;
+}
+
+#empty{
+	height:50px;
+	
+}
+
+footer{
+	
+	text-align: center;
+	width:100%;
+	height:50px;
+	color:white;
+	position:fixed;
+	background: black;
+	bottom:0;
+	left:0;
+
+}
+
+
+
+
+
